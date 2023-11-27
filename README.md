@@ -28,13 +28,11 @@ Did exploratory data analysis to gain some insights on data:
 
 **Class distribution**: plotted pie plot to show that data is highly Imbalanced.
 
-<img src="images/pie.png" height="200">
 
 Then calculated the time elapsed over the total transactions of the dataset, and found out to be 2 days.
 
 Plotted the correlation heatmap to know any columns are highly correlated. Found out that there are around 11 columns which are having pearson's correation index minimum of 0.80. Then deleted all of them and leave only one from those highly correlated columns.
 
-<img src="images/heatmap.png" height="400">
 
 Also, handled Imbalanced dataset using Under-Sampling technique to address the issue of Biased Model & Overfitting.
 
